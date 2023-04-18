@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cal-screen">
+                        <input type="text" class="form-control" id="screen" value="0" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="seven" value="7">7</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="eight" value="8">8</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="nine" value="9">9</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-danger btn-block" id="divide" value="/">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="four" value="4">4</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="five" value="5">5</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="six" value="6">6</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-danger btn-block" id="multiply" value="*">x</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="one" value="1">1</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="two" value="2">2</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="three" value="3">3</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-danger btn-block" id="subtract" value="-">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="clear" value="clear">C</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="zero" value="0">0</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary btn-block" id="equals" value="=">=</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-danger btn-block" id="add" value="+">+</button>
+                </div>
+            </div>
+            <div>
+                <p id="para">Designed by ManeRS Tech</p>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
